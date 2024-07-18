@@ -1,11 +1,14 @@
 
 
 
-li {
+.link {
     text-decoration: none;
-    list-style-type: none;
-  }
+}
 
+
+li {
+    list-style-type: none;
+}
 
 
 
@@ -13,7 +16,7 @@ h1{
     background-color: lightgray;
     font-family: "Oswald", sans-serif;
     font-weight: 500;
-
+    
 }
 
 h2 {
@@ -24,7 +27,7 @@ h2 {
     width: vw;
     color: white; 
     padding: 20px;
-
+    
 }
 
 h2:hover {
@@ -46,9 +49,19 @@ h3{
 
 h3:hover{
     background-color: lightgray;
-
+    
 }
 
+.logo {
+    width: 100px;
+    
+}
+
+.immagini {
+
+    width: 250px;
+
+}
 
 article{
     /* Per allontanare un po gli articoli tra di loro */
@@ -67,5 +80,5 @@ footer {
 * {
     font-family: "Montserrat", sans-serif;
     font-style: normal;
-
+    
 }
